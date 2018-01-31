@@ -5,7 +5,7 @@
       |                        |
     recvfrom()  <--------   sendto()
       |                        |
-    sendto()    <--------   recvfrom()
+    sendto()    -------->   recvfrom()
       |                        |
     close()                 close()
     

@@ -9,7 +9,7 @@
       |                        |
     read()      <--------   write()
       |                        |
-    write()     <--------   read()
+    write()     -------->   read()
       |                        |
     close()                 close()
     
