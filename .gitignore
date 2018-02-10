@@ -1,0 +1,6 @@
+# byte code file
+*.pyc
+__pycache__
+
+# vim swap file
+*.swp
