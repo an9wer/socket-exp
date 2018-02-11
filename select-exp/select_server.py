@@ -28,7 +28,7 @@ def server(timeout=None):
 
             if r is sock:
                 sc, sockname = sock.accept()
-                print("We have accepted a connection from", sockname)
+                print("We have accepted a connection from {}".format(sockname))
                 sc.setblocking(0)
                 inputs.append(sc)
                 message_queues[sc] = queue.Queue()
